@@ -7,6 +7,7 @@ interface BioProps {
 }
 
 const Bio = ({ user }: BioProps) => {
+    console.log(JSON.stringify(user))
     const { avatar_url, bio, company } = user
 
     return (
